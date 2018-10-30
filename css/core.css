@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px  ;
+    color: #000;
+
+}
+.container{
+    max-width: 100%;
+    min-width: 320px;
+    min-height: 768px;
+    background-color: #efefe2;
+}
+.wrap/* контент*/{
+    max-width: 1180px;
+    /*padding: 0 15px;*/
+    margin: 0 auto;  /*center */
+
+ }
+
+
+@font-face {
+    font-family: ClearSansBold; /* Имя шрифта */
+    src: url(../fonts/ClearSansBold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@media (max-width: 1366px) {
+    .wrap{
+        margin: 0 94px;
+    }
+}
+@media (max-width: 1280px){
+    .wrap{
+        margin: 0 70px;
+    }
+}
+@media (max-width: 320px) {
+
+    .wrap{
+        margin: 0 22px;
+    }
+}
